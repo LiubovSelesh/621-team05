@@ -1,6 +1,16 @@
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+const promptLiga = prompt("Enter number of goals in LaLiga");
+const promptCodaDelRey = prompt("Enter number of goals in CodaDelRey");
+const promptChampions = prompt("Enter number of goals in Champions");
+const laLigaGoals = Number(promptLiga);
+const codaDelReyGoals = Number(promptCodaDelRey);
+const championsLeagueGoals = Number(promptChampions);
+alert ("Total number of goals in all three leagues is" + toyalGoals)
+
+
+
+
+function Add (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     // code goes here
-    return (laLigaGoals + copaDelReyGoals + championsLeagueGoals) 
+    const result = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+    return result
   }
-  
-  goals(5, 10, 2);
