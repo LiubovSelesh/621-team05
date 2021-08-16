@@ -11,3 +11,5 @@ function add(laligaGoals, copaDelReyGoals, championsLeagueGoals) {
   const result = laligaGoals + copaDelReyGoals + championsLeagueGoals;
   return result;
 }
+
+// https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript

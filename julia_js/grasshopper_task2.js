@@ -10,3 +10,5 @@ function move(position, roll) {
 	const newPosition = position + roll*2;
   return newPosition;
 }
+
+// https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
