@@ -69,7 +69,7 @@ function min(arr, toReturn) {
       }
     }
     
-    if(toReturn == 'value') {
+    if(toReturn === 'value') {
       return minValue;
     } 
     return index;
