@@ -1,5 +1,5 @@
 function stringToArray(string){
-    let arrayOfString = string.split(' ');
+    const arrayOfString = string.split(' ');
     return arrayOfString;
   }
 
@@ -7,8 +7,8 @@ function stringToArray(string){
 
 
 function DNAtoRNA(dna) {
-    let re = /T/g;
-    let rna = dna.replace(re, 'U');
+    const re = /T/g;
+    const rna = dna.replace(re, 'U');
     return rna;
   }
 
